@@ -8,7 +8,8 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
    
 }
 .top-players{
@@ -24,6 +25,8 @@ main{
     background-color: white;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 
 }
 hr{
@@ -80,4 +83,24 @@ hr{
  .blog-author a{
      text-decoration: none;
      font-size: 16px;
+ }
+ /* courses style */
+
+ .course .course-banner img{
+     width: 224px;
+     height: 104px;
+ }
+
+ .course-info{
+     display: flex;
+ }
+
+ .fa-star{
+     font-size: 12px;
+ }
+ .fa-star.filled{
+     color: goldenrod;
+ }
+ .fa-star.empty{
+     color: grey;
  }
